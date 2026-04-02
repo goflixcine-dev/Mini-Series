@@ -9,13 +9,14 @@ window.LANDING_CONFIG = {
   */
   brandLogo: "./assets/media/logo.png",
 
-  heroTitle: "Cansado de pagar caro para assistir suas mini s\u00E9ries?",
+  heroTitle: "+3.000 mini s\u00E9ries viciantes por menos de R$1 por dia",
   heroSubtitle:
-    "Existe um jeito simples de assistir com qualidade impec\u00E1vel, sem travamentos e pagando menos do que voc\u00EA imagina.",
+    "Atualizado semanalmente \u2022 Acesso imediato \u2022 Sem travamentos \u2022 Qualidade HD",
   heroPriceNote: "A partir de menos de R$1 por dia",
 
   weeklyPrice: "R$ 10,00/semanal",
-  monthlyPrice: "R$ 29,90/mensal",
+  monthlyOldPrice: "De R$39,90",
+  monthlyPrice: "R$29,90",
   yearlyPrice: "R$ 229,90/anual",
 
   /*
