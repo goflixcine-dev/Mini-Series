@@ -956,6 +956,15 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .proof-card {
+    padding: 0.7rem;
+  }
+
+  .proof-image {
+    max-width: none;
+    width: 100%;
+  }
+
   .marquee img {
     width: 74px;
     height: 102px;
