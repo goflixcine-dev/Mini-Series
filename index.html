@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P&aacute;gina de Vendas</title>
+  <meta name="description" content="P&aacute;gina de vendas com planos, benef&iacute;cios e bot&atilde;o de compra.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <div class="progress-line" id="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="bg-blur blur-1" aria-hidden="true"></div>
+  <div class="bg-blur blur-2" aria-hidden="true"></div>
+
+  <main class="container">
+    <section class="hero reveal">
+      <img class="logo" data-config-src="brandLogo" alt="Logo da marca">
+      <h1 data-config-text="heroTitle"></h1>
+      <p class="subtitle" data-config-text="heroSubtitle"></p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#planos">ADQUIRIR AGORA</a>
+        <a class="btn btn-ghost" data-config-link="support">FALAR NO WHATSAPP</a>
+      </div>
+
+      <div class="hero-note" data-config-text="heroPriceNote"></div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <p class="tag">POR DENTRO DO GRUPO</p>
+        <h2>Veja como funciona antes de assinar</h2>
+        <p class="catalog-subtitle">Grupo no Telegram com mais de 3 mil mini s&eacute;ries.</p>
+        <p class="catalog-subtitle">Disponibilizamos passo a passo completo desde a instala&ccedil;&atilde;o, cria&ccedil;&atilde;o da conta, como encontrar sua mini s&eacute;rie e tamb&eacute;m oferecemos suporte para te ajudar no que precisar.</p>
+      </div>
+      <div class="video-wrap">
+        <iframe
+          class="video"
+          data-config-src="videoUrl"
+          title="Video de demonstracao"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <p class="tag">BENEFICIOS</p>
+        <h2>O que voc&ecirc; encontra aqui</h2>
+      </div>
+      <div class="grid-4">
+        <article class="feature-card">
+          <h3>Imagem em alta qualidade</h3>
+          <p>Doramas e mini s&eacute;ries com qualidade HD, Full HD e 4K.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Sem travamentos</h3>
+          <p>Transmiss&atilde;o est&aacute;vel para voc&ecirc; n&atilde;o perder as melhores cenas.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Acesso em v&aacute;rios dispositivos</h3>
+          <p>Assista na TV, celular, tablet e TV Box com facilidade.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Suporte humanizado</h3>
+          <p>Atendimento r&aacute;pido para te ajudar quando precisar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <p class="tag tag-pill">MAIS RECOMENDADO</p>
+        <h2>TEMOS OS MELHORES DRAMAS...</h2>
+        <p class="catalog-subtitle">Lan&ccedil;amentos, mais assistidos, dublados, temos tudo para voc&ecirc; se divertir com os melhores doramas.</p>
+      </div>
+      <div class="catalog-rows">
+        <div class="marquee">
+          <div class="marquee-track marquee-track-left" id="gallery-track-top"></div>
+        </div>
+        <div class="marquee">
+          <div class="marquee-track marquee-track-right" id="gallery-track-bottom"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <p class="tag">PERFIL IDEAL</p>
+        <h2>Veja se combina com voc&ecirc;</h2>
+      </div>
+      <div class="grid-2">
+        <article class="audience-card">
+          <h3>Para quem &eacute;</h3>
+          <ul>
+            <li><span class="item-emoji" aria-hidden="true">&#128150;</span><span>Quem ama doramas e mini s&eacute;ries.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#128250;</span><span>Quem quer assistir sem travar.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#128184;</span><span>Quem prefere pagar pouco por qualidade.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#10024;</span><span>Quem busca uma plataforma simples de usar.</span></li>
+          </ul>
+        </article>
+        <article class="audience-card audience-card-muted">
+          <h3>Para quem n&atilde;o &eacute;</h3>
+          <ul>
+            <li><span class="item-emoji" aria-hidden="true">&#128683;</span><span>Quem n&atilde;o assiste doramas.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#128584;</span><span>Quem n&atilde;o se importa com qualidade de imagem.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#128176;</span><span>Quem prefere plataformas caras e complicadas.</span></li>
+            <li><span class="item-emoji" aria-hidden="true">&#129513;</span><span>Quem n&atilde;o quer praticidade na hora de assistir.</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="planos">
+      <div class="section-head">
+        <p class="tag">NOSSOS PLANOS</p>
+        <h2>Escolha o plano ideal para voc&ecirc;</h2>
+      </div>
+      <div class="plans">
+        <article class="plan-card">
+          <p class="badge badge-weekly">ACESSO RAPIDO</p>
+          <h3>Plano Semanal</h3>
+          <p class="plan-price" data-config-text="weeklyPrice"></p>
+          <ul>
+            <li>Acesso completo &agrave; plataforma</li>
+            <li>Acesso imediato ap&oacute;s pagamento</li>
+            <li>Atualiza&ccedil;&otilde;es semanais</li>
+            <li>Suporte dedicado</li>
+          </ul>
+          <a class="btn btn-primary btn-full" data-config-link="weekly">QUERO ESTE PLANO</a>
+        </article>
+
+        <article class="plan-card featured">
+          <p class="badge">MAIS VENDIDO</p>
+          <h3>Plano Mensal</h3>
+          <p class="plan-price" data-config-text="monthlyPrice"></p>
+          <ul>
+            <li>Melhor custo-benef&iacute;cio</li>
+            <li>Acesso imediato ap&oacute;s pagamento</li>
+            <li>Todos os conte&uacute;dos liberados</li>
+            <li>Atualiza&ccedil;&otilde;es semanais</li>
+          </ul>
+          <a class="btn btn-primary btn-full" data-config-link="monthly">QUERO ESTE PLANO</a>
+        </article>
+
+        <article class="plan-card">
+          <p class="badge badge-yearly">MELHOR ECONOMIA</p>
+          <h3>Plano Anual</h3>
+          <p class="plan-price" data-config-text="yearlyPrice"></p>
+          <ul>
+            <li>Economia m&aacute;xima no ano</li>
+            <li>Sem preocupa&ccedil;&atilde;o com renova&ccedil;&atilde;o mensal</li>
+            <li>Suporte priorit&aacute;rio</li>
+            <li>Atualiza&ccedil;&otilde;es semanais</li>
+            <li>Poder&aacute; solicitar at&eacute; 2 s&eacute;ries por m&ecirc;s que ainda n&atilde;o estejam dispon&iacute;veis no grupo.</li>
+          </ul>
+          <a class="btn btn-primary btn-full" data-config-link="yearly">QUERO ESTE PLANO</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <p class="tag">FAQ</p>
+        <h2>Perguntas frequentes</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Tem conte&uacute;dos de quais aplicativos?</summary>
+          <p>Reelshort, Dramabox, Mydrama, Dramawave, Goodshort e Dreameshort, tudo em um s&oacute; lugar.</p>
+        </details>
+        <details>
+          <summary>O aplicativo precisa de internet para funcionar?</summary>
+          <p>Sim. Uma conex&atilde;o est&aacute;vel j&aacute; &eacute; suficiente para assistir sem travar.</p>
+        </details>
+        <details>
+          <summary>Em quantos aparelhos posso usar?</summary>
+          <p>Voc&ecirc; pode usar em qualquer aparelho que tiver a mesma conta do telegram conectada.</p>
+        </details>
+        <details>
+          <summary>Como recebo o acesso?</summary>
+          <p>Ap&oacute;s a confirma&ccedil;&atilde;o de pagamento, voc&ecirc; recebe por e-mail os dados de acesso.</p>
+        </details>
+        <details>
+          <summary>Por onde acesso?</summary>
+          <p>O acesso &eacute; realizado por meio de um grupo no Telegram, para garantir organiza&ccedil;&atilde;o e facilidade de acesso.</p>
+        </details>
+        <details>
+          <summary>Tem suporte caso eu tenha d&uacute;vidas?</summary>
+          <p>Sim. Voc&ecirc; pode falar direto no WhatsApp pelo bot&atilde;o de atendimento.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="support">
+        <h2>Est&aacute; com d&uacute;vidas?</h2>
+        <p>Fale com o atendimento e te ajudamos a escolher o melhor plano.</p>
+        <a class="btn btn-primary" data-config-link="support">ATENDIMENTO NO WHATSAPP</a>
+      </div>
+    </section>
+
+    <section class="section reveal trust-section" aria-label="Seguranca e pagamentos">
+      <div class="trust-strip">
+        <div class="trust-grid">
+          <article class="trust-col trust-col-brand">
+            <div class="trust-brand-head">
+              <img class="trust-brand-logo" data-config-src="brandLogo" alt="Logo da Shortflix">
+              <h3 data-config-text="brandName">Shortflix</h3>
+            </div>
+
+          </article>
+
+          <article class="trust-col">
+            <h3>Site seguro</h3>
+            <img
+              class="trust-image trust-image-reclame"
+              src="https://www.dramaplayoficial.com/wp-content/uploads/2026/03/SELO-RECLAME-AQUI.webp"
+              alt="Selo de verificacao"
+              loading="lazy"
+              decoding="async">
+            <img
+              class="trust-image trust-image-security"
+              src="https://www.dramaplayoficial.com/wp-content/uploads/2026/03/SELO-SITE-SEGURO.webp"
+              alt="Selos de seguranca digital"
+              loading="lazy"
+              decoding="async">
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-config-text="footerLegal"></p>
+    <p>&copy; <span id="current-year"></span> <span data-config-text="brandName"></span>. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
